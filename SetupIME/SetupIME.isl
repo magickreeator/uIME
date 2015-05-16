@@ -53,7 +53,7 @@
 		<codepage>1252</codepage>
 		<title>Installation Database</title>
 		<subject></subject>
-		<author>InstallShield</author>
+		<author>##ID_STRING3##</author>
 		<keywords>Installer,MSI,Database</keywords>
 		<comments>Contact:  Your local administrator</comments>
 		<template>Intel;1033</template>
@@ -340,7 +340,7 @@
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{20710DAF-C178-424F-A5B0-993AD846247A}</td><td>PLUGINS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SampleIME.dll</td><td>{28426562-1ABC-4555-9706-0F9D1005DA49}</td><td>PLUGINS</td><td>2</td><td/><td>sampleime.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SampleIME.dll</td><td>{DC45799C-26DB-496A-9752-BD05DBACF942}</td><td>PLUGINS</td><td>2</td><td/><td>sampleime.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1135,15 +1135,19 @@
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
 		<row><td>DATABASEDIR</td><td>ISYourDataBaseDir</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
+		<row><td>EXAMPLE</td><td>ProgramFilesFolder</td><td>example</td><td/><td>0</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>ISMyProductDir</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>MY_PRODUCT_NAME2</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME</td><td>YOUR_COMPANY_NAME</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME1</td><td>ROMAN</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME2</td><td>EXAMPLE</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>PLUGINS</td><td>INSTALLDIR</td><td>Plugins</td><td/><td>0</td><td/></row>
@@ -1153,6 +1157,7 @@
 		<row><td>ProgramFiles64Folder</td><td>TARGETDIR</td><td>.:Prog64~1|Program Files 64</td><td/><td>0</td><td/></row>
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
+		<row><td>ROMAN</td><td>ProgramFilesFolder</td><td>Roman</td><td/><td>0</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -1166,6 +1171,7 @@
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
+		<row><td>YOUR_COMPANY_NAME</td><td>ProgramFilesFolder</td><td>YOURCO~1|Your Company Name</td><td/><td>0</td><td/></row>
 	</table>
 
 	<table name="DrLocator">
@@ -1873,8 +1879,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>sampleime.dll</td><td>SampleIME.dll</td><td>SampleIME.dll</td><td>0</td><td/><td/><td>0</td><td>1</td><td>C:\Users\Роман\Documents\Visual Studio 2013\Projects\Input Method Editor (IME) sample\C++\Release\SampleIME.dll</td><td>1</td><td/></row>
-		<row><td>sampleimesimplifiedquanpin.t</td><td>ISX_DEFAULTCOMPONENT</td><td>SampleIMESimplifiedQuanPin.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Роман\Documents\Visual Studio 2013\Projects\Input Method Editor (IME) sample\C++\SampleIME\Dictionary\SampleIMESimplifiedQuanPin.txt</td><td>1</td><td/></row>
+		<row><td>sampleime.dll</td><td>SampleIME.dll</td><td>SAMPLE~1.DLL|SampleIME.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\C++\Release\SampleIME.dll</td><td>1</td><td/></row>
+		<row><td>sampleimesimplifiedquanpin.t</td><td>ISX_DEFAULTCOMPONENT</td><td>SAMPLE~1.TXT|SampleIMESimplifiedQuanPin.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\C++\SampleIME\Dictionary\SampleIMESimplifiedQuanPin.txt</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2019,7 +2025,7 @@
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_0CF17625_CD51_421A_89F4_E0777FBFA42C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SampleIME.dll</td><td/><td/><td>_E7B29933_FB5C_49D2_9F7B_5A1A9EBA76A5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SampleIME.dll</td><td/><td/><td>_15FBA780_CB53_4D7F_964F_F559775F5D3F_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2586,7 +2592,6 @@
 		<col def="I2">Cost</col>
 		<col def="I2">Order</col>
 		<col def="S50">CmdLine</col>
-		<row><td>sampleime.dll</td><td>1</td><td/><td/></row>
 	</table>
 
 	<table name="ISSetupFile">
@@ -2637,7 +2642,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Your Company Name</td><td>0</td><td/><td>178507121</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>example</td><td>0</td><td/><td>-2103187731</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
@@ -3738,7 +3743,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>178511217</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>example.org</td><td>0</td><td/><td>178494706</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.example.com</td><td>0</td><td/><td>-2103187731</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>example</td><td>0</td><td/><td>-2103187731</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>178507121</td></row>
 	</table>
 
@@ -3979,7 +3985,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{6BF3B648-478A-45C9-8EA4-2F9911D639AD}</td></row>
 		<row><td>ISUSSignature</td><td>{78AAD074-8D9F-4FCA-AC0E-E093499DF5B3}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewAppV,viewRealSetupDesign,viewProject,viewSetupDesign,viewSetupTypes,viewUpgradePaths,viewUpdateService,viewSupportFiles</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
