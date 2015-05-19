@@ -340,7 +340,7 @@
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{20710DAF-C178-424F-A5B0-993AD846247A}</td><td>PLUGINS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SampleIME.dll</td><td>{DC45799C-26DB-496A-9752-BD05DBACF942}</td><td>PLUGINS</td><td>2</td><td/><td>sampleime.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SampleIME.dll</td><td>{DC45799C-26DB-496A-9752-BD05DBACF942}</td><td>PLUGINS</td><td>2</td><td/><td>sampleime.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -551,7 +551,7 @@
 		<row><td>LicenseAgreement</td><td>DlgLine</td><td>Line</td><td>48</td><td>234</td><td>326</td><td>0</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>DlgTitle</td><td>Text</td><td>13</td><td>6</td><td>292</td><td>25</td><td>65539</td><td/><td>##IDS__IsLicenseDlg_LicenseAgreement##</td><td/><td/><td>0</td><td/><td/><td/></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>PushButton</td><td>301</td><td>188</td><td>65</td><td>17</td><td>3</td><td/><td>##IDS_PRINT_BUTTON##</td><td>Agree</td><td/><td>0</td><td/><td/><td/></row>
-		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Users\Роман\Documents\Visual Studio 2013\Projects\Input Method Editor (IME) sample\license.rtf</td><td/></row>
+		<row><td>LicenseAgreement</td><td>Memo</td><td>ScrollableText</td><td>8</td><td>55</td><td>358</td><td>130</td><td>7</td><td/><td/><td/><td/><td>0</td><td/><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\license.rtf</td><td/></row>
 		<row><td>LicenseAgreement</td><td>Next</td><td>PushButton</td><td>230</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_NEXT##</td><td>Cancel</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>PushButton</td><td>164</td><td>243</td><td>66</td><td>17</td><td>3</td><td/><td>##IDS_BACK##</td><td>Next</td><td/><td>0</td><td/><td/><td/></row>
 		<row><td>MaintenanceType</td><td>Banner</td><td>Bitmap</td><td>0</td><td>0</td><td>374</td><td>44</td><td>1</td><td/><td/><td/><td/><td>0</td><td/><td/><td>NewBinary1</td></row>
@@ -1879,7 +1879,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>sampleime.dll</td><td>SampleIME.dll</td><td>SAMPLE~1.DLL|SampleIME.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\C++\Release\SampleIME.dll</td><td>1</td><td/></row>
+		<row><td>sampleime.dll</td><td>SampleIME.dll</td><td>SAMPLE~1.DLL|SampleIME.dll</td><td>0</td><td/><td/><td>0</td><td>1</td><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\C++\Release\SampleIME.dll</td><td>1</td><td/></row>
 		<row><td>sampleimesimplifiedquanpin.t</td><td>ISX_DEFAULTCOMPONENT</td><td>SAMPLE~1.TXT|SampleIMESimplifiedQuanPin.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\roman\Documents\8 GB\Диплом\Input Method Editor (IME) sample\C++\SampleIME\Dictionary\SampleIMESimplifiedQuanPin.txt</td><td>1</td><td/></row>
 	</table>
 
@@ -2592,6 +2592,7 @@
 		<col def="I2">Cost</col>
 		<col def="I2">Order</col>
 		<col def="S50">CmdLine</col>
+		<row><td>sampleime.dll</td><td>1</td><td/><td/></row>
 	</table>
 
 	<table name="ISSetupFile">
@@ -2642,7 +2643,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>example</td><td>0</td><td/><td>-2103187731</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>example</td><td>0</td><td/><td>-1834783501</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
@@ -3743,8 +3744,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>178507121</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>178511217</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.example.com</td><td>0</td><td/><td>-2103187731</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>example</td><td>0</td><td/><td>-2103187731</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.example.com</td><td>0</td><td/><td>-1834783501</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>example</td><td>0</td><td/><td>-1834783501</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>178507121</td></row>
 	</table>
 
