@@ -20,7 +20,7 @@
 #define IME_PUNCTUATION_ON_INDEX    IDI_PUNCTUATION_ON
 #define IME_PUNCTUATION_OFF_INDEX   IDI_PUNCTUATION_OFF
 
-#define SAMPLEIME_FONT_DEFAULT L"Microsoft YaHei UI"
+#define SAMPLEIME_FONT_DEFAULT L"Times New Roman"
 
 //---------------------------------------------------------------------
 // defined Candidated Window

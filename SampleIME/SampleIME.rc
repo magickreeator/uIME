@@ -95,7 +95,7 @@ END
 STRINGTABLE
 BEGIN
     IDIS_SAMPLEIME          "Chinese Simplified QuanPin (version 6.0)"
-    IDS_DEFAULT_FONT        "Microsoft YaHei UI"
+    IDS_DEFAULT_FONT        "Times New Roman"
 END
 
 STRINGTABLE
