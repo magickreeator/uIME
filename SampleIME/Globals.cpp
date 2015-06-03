@@ -159,24 +159,24 @@ extern const WCHAR StringDelimiter  = L'\"';
 //---------------------------------------------------------------------
 // defined item in setting file table [PreservedKey] section
 //---------------------------------------------------------------------
-extern const WCHAR ImeModeDescription[] = L"Chinese/English input (Shift)";
+extern const WCHAR ImeModeDescription[] = L"Предиктивный ввод (Shift)";
 extern const int ImeModeOnIcoIndex = IME_MODE_ON_ICON_INDEX;
 extern const int ImeModeOffIcoIndex = IME_MODE_OFF_ICON_INDEX;
 
-extern const WCHAR DoubleSingleByteDescription[] = L"Double/Single byte (Shift+Space)";
+extern const WCHAR DoubleSingleByteDescription[] = L"Обычный ввод/Предиктивный ввод (Shift+Пробел)";
 extern const int DoubleSingleByteOnIcoIndex = IME_DOUBLE_ON_INDEX;
 extern const int DoubleSingleByteOffIcoIndex = IME_DOUBLE_OFF_INDEX;
 
-extern const WCHAR PunctuationDescription[] = L"Chinese/English punctuation (Ctrl+.)";
+extern const WCHAR PunctuationDescription[] = L"Ввод символов (Ctrl+.)";
 extern const int PunctuationOnIcoIndex = IME_PUNCTUATION_ON_INDEX;
 extern const int PunctuationOffIcoIndex = IME_PUNCTUATION_OFF_INDEX;
 
 //---------------------------------------------------------------------
 // defined item in setting file table [LanguageBar] section
 //---------------------------------------------------------------------
-extern const WCHAR LangbarImeModeDescription[] = L"Conversion mode";
-extern const WCHAR LangbarDoubleSingleByteDescription[] = L"Character width";
-extern const WCHAR LangbarPunctuationDescription[] = L"Punctuation";
+extern const WCHAR LangbarImeModeDescription[] = L"Предиктивный ввод";
+extern const WCHAR LangbarDoubleSingleByteDescription[] = L"Обычный ввод/Предиктивный ввод";
+extern const WCHAR LangbarPunctuationDescription[] = L"Ввод символов";
 
 //---------------------------------------------------------------------
 // windows class / titile / atom
@@ -242,20 +242,20 @@ extern const WCHAR FullWidthCharTable[] = {
 // defined punctuation characters
 //---------------------------------------------------------------------
 extern const struct _PUNCTUATION PunctuationTable[14] = {
-    {L'!',  0xFF01},
-    {L'$',  0xFFE5},
-    {L'&',  0x2014},
-    {L'(',  0xFF08},
-    {L')',  0xFF09},
-    {L',',  0xFF0C},
-    {L'.',  0x3002},
-    {L':',  0xFF1A},
-    {L';',  0xFF1B},
-    {L'?',  0xFF1F},
-    {L'@',  0x00B7},
-    {L'\\', 0x3001},
-    {L'^',  0x2026},
-    {L'_',  0x2014}
+	{ L'!', 0x0021 },
+	{ L'$', 0x0024 },
+	{ L'&', 0x0026 },
+	{ L'(', 0x0028 },
+	{ L')', 0x0029 },
+	{ L',', 0x002C },
+	{ L'.', 0x002E },
+	{ L':', 0x003A },
+	{ L';', 0x003B },
+	{ L'?', 0x003F },
+	{ L'@', 0x0040 },
+	{ L'\\', 0x005C },
+	{ L'^', 0x005E },
+	{ L'_', 0x005F }
 };
 
 //+---------------------------------------------------------------------------
