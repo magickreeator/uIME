@@ -21,9 +21,6 @@
     <None Include="SampleIME.def">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="Dictionary\SampleIMESimplifiedQuanPin.txt">
-      <Filter>Dictionary</Filter>
-    </None>
     <None Include="image\SampleIme.ico">
       <Filter>Resource Files</Filter>
     </None>
@@ -44,6 +41,9 @@
     </None>
     <None Include="image\PunctuationOff.ico">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Dictionary\Dictionary.txt">
+      <Filter>Dictionary</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
